@@ -1,0 +1,128 @@
+
+@import url(header.css);
+@import url(footer.css);
+
+
+/*--------------------Inicio cuerpo noticia------------------*/
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#btn-publicar button{
+    
+    bottom: 0;
+    color: #fff;
+    width: 30%;
+    min-width: 20%;
+    background: rgba(0,0,0,0);
+    height: 50px;
+    position: absolute;
+    font-size: 15px;
+}
+#btn-publicar h2{
+    font-size: 15px;
+    position: relative;
+    transform: translateY(200%);
+    color: #fff;
+    
+}
+#btn-publicar button:hover{
+    background:red;
+    cursor: pointer;
+}
+#btn-publicar img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#btn-publicar .contenedor{
+    top: 0;
+    left: 0;
+    position: relative;
+    height: 300px;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+#publicaciones-recientes #titulo{
+    font-size: 40px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#publicaciones-recientes .contenedor{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    color:#333;
+   background: #f4f1bb;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+.titulo-publicacion{
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: brown;
+    width: 100%;
+   
+    
+}
+.titulo-publicacion:hover{
+    color:crimson;
+    
+}
+#publicaciones-recientes .contenedor h2{
+   width: 100%;
+    height: 30px;
+}
+#publicaciones-recientes .contenedor a h1{
+   width: 100%;
+    color: #338;
+}
+#publicaciones-recientes .contenedor img{
+    height: 180px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 70%;
+    border: 7px solid #fff;
+    
+}
+
+@media (min-width:1024px){/*los comando se ejecutaran en un computador al agrandar la pagina*/
+    .contenedor{
+        width: 1000px;
+    }
+    
+    #btn-publicar h2{
+    font-size: 30px;
+    left: 0; 
+    position: relative;
+    color: #fff;
+    
+    }
+    #publicaciones-recientes #titulo{
+    font-size: 50px;
+    background: #333;
+    color: #fff;
+    
+}
+    #publicaciones-recientes .contenedor{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    color:#333;
+   background: #f4f1bb;
+        
+}
+    #btn-publicar button{
+        font-size: 30px;
+    }
+    
+    
+    
+}
+
