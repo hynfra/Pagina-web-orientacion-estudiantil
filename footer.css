@@ -1,0 +1,22 @@
+/*<-------------------------Pie de pagina------------------------>>*/
+footer{
+    background: #333;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    justify-content: center;
+}
+.copy{
+    float: left;
+    color:#fff;
+    font-size: 20px;
+}
+.sociales{
+    float: right;
+    font-size:30px;
+    margin-right:50px;
+}
+.sociales a{
+    color: #fff;
+}
+/*<-------------------------Fin pie de pagina------------------->*/
