@@ -1,0 +1,82 @@
+@import url(header.css);
+@import url(footer.css);
+*{
+    box-sizing: border-box;/*es para que los espacios que se ocupen sean exactamente lo que se especifica*/
+    
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+.form-register{
+    width: 98%;
+    max-width: 1000px;/*no pasara de 500px el ancho*/
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+background: #f4f1bb;
+}
+.form-titulo{
+    background: deepskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px ;
+    border-top-right-radius: 7px ;
+    border-bottom: 5px solid crimson;
+}
+.contenedor-inputs{
+    padding: 10px 30px;/*10px hacia arriba y 30px a los costados*/
+    display: flex;/*hace la cajas flexibles*/
+    flex-wrap: wrap;/*hace que el contenido que no caiga se vaya hacia abajo*/
+    justify-content: space-between;/*separa los input entre si*/
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+.input-100{
+    width: 100%;
+}
+.btn-enviar{
+    background: green;
+    color:#fff;
+    margin: auto;
+    padding: 10px 40px;/*10 hacia arriba y 40 hacia los lados*/
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn-enviar:active{/*esto se activa al hacer click al boton*/
+    transform: scale(1.05);/*hace que se agrande el boton un poco*/
+    transition:all 0.2s;
+}
+.btn-enviar:hover{
+    background: red;
+}
+.form-link{
+    width: 100%;/*para que quede debajo del boton, debido al flex wrap que esta arriba*/
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+section{
+    margin-top: 50px;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    
+}
+p{
+    width: 100%;
+}
+select{
+    width: 100%;
+    max-width: 300px;
+}
+    
